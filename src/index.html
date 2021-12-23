@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-200">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>Tailwindcss UI</title>
+</head>
+
+<body class="h-full">
+    <div class="super-wrap min-h-full">
+
+        <div class="bg-gray-400">
+            <div class="wrapper">
+                <div class="flex items-center h-16">
+                    <div class="flex items-center">
+
+                        <a href="./index.html" class="flex items-flex">
+                            <div class="w-8 h-8 rounded-full bg-white mr-3"></div>
+                            <h4 class="text-white leading-none ">Logo</h4>
+
+                        </a>
+
+
+                        <div class="hidden md:block">
+                            <div class="ml-10 flex items-baseline space-x-4">
+                                <a href="#" aria-current="page">Dashboard</a>
+                                <a href="./forms.html" class="nav-link">Forms</a>
+                                <a href="./tables.html" class="nav-link">Tables</a>
+                                <a href="./buttons.html" class="nav-link">Buttons</a>
+                                <a href="./columns.html" class="nav-link">Layout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <header class="bg-white shadow">
+            <div class="wrapper py-7">
+                <h1 class="text-3xl font-bold text-gray-900">
+                    Dashboard
+                </h1>
+            </div>
+        </header>
+        <main>
+            <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+
+                <div class="relative bg-blue-700 w-full sm:rounded-xl overflow-hidden">
+                    <img class="absolute inset-0 w-full h-full object-cover opacity-30" src="https://apr.moscow/content/data/1/1920х640рх_02.png" alt="">
+                    <!-- <div class="absolute inset-0 bg-gradient-to-br from-blue-700 via-blue-700 to-transparent opacity-90"></div> -->
+                    <div class="absolute inset-0 bg-gradient-to-br from-cyan-500  to-transparent opacity-90"></div>
+                    <div class="relative max-w-2xl text-center mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+                        <h2 class="text-3xl font-bold text-white sm:text-4xl">
+                            <span>Размещение и сопровождение новых производств</span>
+                        </h2>
+                        <p class="mt-4 text-lg leading-6 text-blue-200">Подбираем оптимальные пакеты мер государственной поддержки, включая налоговые льготы, субсидии и прочие инструменты</p>
+                        <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                            <div class="space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-5">
+                                <a href="#" class="text-blue-700 bg-white hover:bg-blue-50 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm sm:px-8">Узнать больше</a>
+                                <a href="#" class="text-white bg-blue-600 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8">Заказать услугу</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cards -->
+                <div class="mt-6 grid md:grid-cols-2 gap-6">
+                    
+                    <div class="p-6 rounded-lg bg-white space-y-4">
+                        <div>
+                            <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="">
+                        </div>
+                        <h4 class="text-2xl font-medium">Card Heading</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sit, iure pariatur accusamus veniam ad consequatur corporis aut adipisci porro?</p>
+                        <div class="space-x-2">
+                            <button class="btn">Button</button> 
+                            <button class="btn bg-blue-500 border-blue-500 hover:text-black text-white">More</button> 
+
+                        </div>
+                                       
+                    </div>
+
+                    <div class="p-6 rounded-lg bg-white space-y-4">
+                        <div>
+                            <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="">
+                        </div>
+                        <h4 class="text-2xl font-medium">Card Heading</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sit, iure pariatur accusamus veniam ad consequatur corporis aut adipisci porro?</p>
+                        <div class="space-x-2">
+                            <button class="btn">Button</button> 
+                            <button class="btn bg-blue-500 border-blue-500 hover:text-black text-white">More</button> 
+
+                        </div>                 
+                    </div>
+
+                </div>
+                
+
+
+
+                <!-- Replace with your content -->
+
+
+                <div class="card space-y-4 mt-6">
+                    <h1>H1.Heading</h1>
+                    <h2>H2.Heading</h2>
+                    <h3>H3.Heading</h3>
+                    <h4>H4.Heading</h4>
+                    <h5 class="text-2xl">H5.Heading</h5>
+                    <h6 class="text-xl">H6.Heading</h6>
+                    <p class="text-basic">Plain text basic</p>
+                    <p class="text-sm">Plain text small</p>
+                    <button type="button"
+                        class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        <!-- Heroicon name: solid/link -->
+                        <svg class="-ml-1 mr-2 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd"
+                                d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                clip-rule="evenodd" />
+                        </svg>
+                        View
+                    </button>
+                    <div>
+                        <button type="button" class="btn">Button</button>
+                    </div>
+
+
+                </div>
+
+                <!-- /End replace -->
+            </div>
+        </main>
+        <!-- <aside class="ant-layout-sider ant-layout-sider-dark"
+            style="flex: 0 0 200px; max-width: 200px; min-width: 200px; width: 200px;">
+            <div class="ant-layout-sider-children">
+                <div class="logo"></div>
+                <ul class="ant-menu ant-menu-root ant-menu-inline ant-menu-dark" dir="ltr" role="menu" tabindex="0"
+                    data-menu-list="true">
+                    <li class="ant-menu-item ant-menu-item-selected" role="menuitem" tabindex="-1"
+                        data-menu-id="rc-menu-uuid-33311-8-1" style="padding-left: 24px;">
+                        <span role="img" aria-label="user" class="anticon anticon-user ant-menu-item-icon">
+                            <svg viewBox="64 64 896 896" focusable="false" data-icon="user" width="1em" height="1em"
+                                fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="ant-menu-title-content">nav 1</span>
+                    </li>
+                    <li class="ant-menu-item" role="menuitem" tabindex="-1" data-menu-id="rc-menu-uuid-33311-8-2"
+                        style="padding-left: 24px;">
+                        <span role="img" aria-label="video-camera"
+                            class="anticon anticon-video-camera ant-menu-item-icon">
+                            <svg viewBox="64 64 896 896" focusable="false" data-icon="video-camera" width="1em"
+                                height="1em" fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M912 302.3L784 376V224c0-35.3-28.7-64-64-64H128c-35.3 0-64 28.7-64 64v576c0 35.3 28.7 64 64 64h592c35.3 0 64-28.7 64-64V648l128 73.7c21.3 12.3 48-3.1 48-27.6V330c0-24.6-26.7-40-48-27.7zM712 792H136V232h576v560zm176-167l-104-59.8V458.9L888 399v226zM208 360h112c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H208c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="ant-menu-title-content">nav 2</span>
+                    </li>
+                    <li class="ant-menu-item" role="menuitem" tabindex="-1" data-menu-id="rc-menu-uuid-33311-8-3"
+                        style="padding-left: 24px;">
+                        <span role="img" aria-label="upload" class="anticon anticon-upload ant-menu-item-icon"><svg
+                                viewBox="64 64 896 896" focusable="false" data-icon="upload" width="1em" height="1em"
+                                fill="currentColor" aria-hidden="true">
+                                <path
+                                    d="M400 317.7h73.9V656c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V317.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 163a8 8 0 00-12.6 0l-112 141.7c-4.1 5.3-.4 13 6.3 13zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z">
+                                </path>
+                            </svg>
+                        </span>
+                        <span class="ant-menu-title-content">nav 3</span>
+                    </li>
+                </ul>
+                <div aria-hidden="true" style="display: none;"></div>
+            </div>
+        </aside> -->
+
+    </div>
+</body>
+
+</html>

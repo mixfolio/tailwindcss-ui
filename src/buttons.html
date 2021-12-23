@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-200">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>Tailwindcss UI | Buttons</title>
+</head>
+
+<body class="h-full">
+    <div class="super-wrap min-h-full">
+
+        <div class="bg-gray-400">
+            <div class="wrapper">
+                <div class="flex items-center h-16">
+                    <div class="flex items-center">
+
+                        <a href="./index.html" class="flex items-flex">
+                            <div class="w-8 h-8 rounded-full bg-white mr-3"></div>
+                            <h4 class="text-white leading-none ">Logo</h4>
+
+                        </a>
+
+
+                        <div class="hidden md:block">
+                            <div class="ml-10 flex items-baseline space-x-4">
+                                <a href="#" aria-current="page">Dashboard</a>
+                                <a href="forms.html" class="nav-link">Forms</a>
+                                <a href="#" class="nav-link">Tables</a>
+                                <a href="#" class="nav-link">Calendar</a>
+                                <a href="#" class="nav-link">Reports</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <header class="bg-white shadow">
+            <div class="wrapper py-7">
+                <h1 class="text-3xl font-bold text-gray-900">
+                    Dashboard
+                </h1>
+            </div>
+        </header>
+        <main>
+            <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+                <!-- Cards -->
+                <div class="card">
+                    <h4>Buttons</h4>
+                    <div class="mt-6 space-x-4">
+                        <button  class="px-8 py-3 rounded-full bg-cyan-500 text-white shadow-xl shadow-cyan-500/50">Button</button>
+                        <button  class="px-8 py-3 rounded-full bg-sky-500 text-white shadow-xl shadow-sky-500/50">Button</button>
+                        <button  class="px-8 py-3 rounded-full bg-indigo-500 text-white shadow-xl shadow-indigo-500/50">Button</button>
+                        <button  class="px-8 py-3 rounded-full bg-pink-500 text-white shadow-xl shadow-pink-500/50">Button</button>
+                    </div>
+                </div>
+                <div class="card mt-6">
+                    <div class="flex flex-col">
+                        <h4>Aspect Ratio</h4>
+                        <!-- <div class="mt-4">
+                            <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1640101102811-6d2bc899468b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80" alt="">
+                        </div> -->
+                        <div class="mt-4">
+                            <img class="aspect-[3/1] w-full object-cover" src="https://images.unsplash.com/photo-1640101102811-6d2bc899468b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card mt-6">
+                    
+                        <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/mSC6GwizOag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>
+        </main>
+    </div>
+</body>
+
+</html>

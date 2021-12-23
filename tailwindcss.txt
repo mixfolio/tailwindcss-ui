@@ -1,0 +1,50 @@
+Мануал по Tailwindcss
+
+1. Инициализируем проект 
+    npm init -y
+2. Устанавливаем tailwindcss в дев-зависмость:
+    npm i -D tailwindcss
+3. Создаем файл tailwindconfig.js при помощи
+    npx tailwindcss init
+4. В файле tailwindconfig.js в массив content прописываем отслеживаемые файлы
+    например: content: ["./index.html"],
+5. В файлах html в теге подключения стиля указываем путь к css-файлу, который будет сгенерирован
+    например: <link rel="stylesheet" href="./tailwind/output.css">
+6. Создаем css-файл, из которого будет будет гененироваться файл output.css
+    например: ./style.css
+7. В файл, созданный в пункте 6, добавляем строки:
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+8. Запускаем команду, которая будет следить за изменениями в html-файле и генерировать output.css на лету:
+    npx tailwindcss -i ./styles.css -o ./tailwind/output.css --watch
+
+Создастся файл output.css, в котором будут только начальные обнуляющие стили
+Теперь можно верстать:
+    1. Просто вешаем на теги нужные классы (доки на сайте https://tailwindcss.com)
+    2. Если классов на теге становится очень много и они повторяются, 
+    то можно сделать базовые стили(например: <h1>) , стилевые компоненты(btn) или утилиты (bg-dark)
+    
+    Пример файла style.css:
+    ===============================================================
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    @layer base {
+        h2 {
+            @apply text-4xl text-blue-700;
+        }
+    }
+    @layer components {
+        .btn-blue {
+            @apply bg-indigo-600 border border-transparent rounded-md py-3 px-8 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500;
+        }
+    }
+    @layer utilities {
+        .bg-dark {
+            background-color: #000;
+        }
+    }
+
+    Более подробно в видео https://youtu.be/MDHUKHWYDpM
