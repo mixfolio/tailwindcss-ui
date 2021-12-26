@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-200">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>Tailwindcss UI</title>
+</head>
+
+<body class="h-full">
+    <div class="super-wrap min-h-full">
+        <div class="flex">
+            <aside class="w-72 shrink-0 bg-neutral-800 p-4">
+                <ul>
+                    <li>
+                        <a class="block bg-blue-500 py-2 px-4 text-white rounded-md" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-white rounded-md hover:bg-neutral-700">Link 2</a>
+                        <ul class="bg-neutral-700">
+                            <li>
+                                <a href="#" class="block py-2 pl-8 pr-4 text-white">Sublink-1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block py-2 pl-8 pr-4 text-white">Sublink-2</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-white rounded-md hover:bg-neutral-700">Link 3</a>
+                    </li>
+                    <li>
+                        <a href="#" class="block py-2 px-4 text-white rounded-md hover:bg-neutral-700">Link 4</a>
+                    </li>
+                </ul>
+            </aside>
+            <div class="flex flex-col">
+                <nav class="bg-gray-400">
+                    <div class="wrapper">
+                        <div class="flex items-center h-16">
+                            <div class="flex items-center">
+        
+                                <a href="./index.html" class="flex items-flex">
+                                    <div class="w-8 h-8 rounded-full bg-white mr-3"></div>
+                                    <h4 class="text-white leading-none ">Tailwindcss <span class="text-blue-700">UI</span></h4>
+        
+                                </a>
+        
+        
+                                <div class="hidden md:block">
+                                    <div class="ml-10 flex items-baseline space-x-4">
+                                        <a href="#" aria-current="page">Dashboard</a>
+                                        <a href="./forms.html" class="nav-link">Forms</a>
+                                        <a href="./tables.html" class="nav-link">Tables</a>
+                                        <a href="./buttons.html" class="nav-link">Buttons</a>
+                                        <a href="./columns.html" class="nav-link">Layout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                
+        
+        
+                <header class="bg-white shadow">
+                    <div class="wrapper py-7">
+                        <h1 class="text-3xl font-bold text-gray-900">
+                            Dashboard
+                        </h1>
+                    </div>
+                </header>
+                <main>
+                    <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+        
+                        <div class="relative bg-blue-700 w-full sm:rounded-xl overflow-hidden">
+                            <img class="absolute inset-0 w-full h-full object-cover opacity-30" src="https://apr.moscow/content/data/1/1920х640рх_02.png" alt="">
+                            <!-- <div class="absolute inset-0 bg-gradient-to-br from-blue-700 via-blue-700 to-transparent opacity-90"></div> -->
+                            <div class="absolute inset-0 bg-gradient-to-br from-cyan-500  to-transparent opacity-90"></div>
+                            <div class="relative max-w-2xl text-center mx-auto py-16 px-4 sm:py-20 sm:px-6 lg:px-8">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl">
+                                    <span>Размещение и сопровождение новых производств</span>
+                                </h2>
+                                <p class="mt-4 text-lg leading-6 text-blue-200">Подбираем оптимальные пакеты мер государственной поддержки, включая налоговые льготы, субсидии и прочие инструменты</p>
+                                <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
+                                    <div class="space-y-4 sm:space-y-0 sm:inline-grid sm:grid-cols-2 sm:gap-5">
+                                        <a href="#" class="text-blue-700 bg-white hover:bg-blue-50 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm sm:px-8">Узнать больше</a>
+                                        <a href="#" class="text-white bg-blue-600 flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm bg-opacity-60 hover:bg-opacity-70 sm:px-8">Заказать услугу</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Cards -->
+                        <div class="mt-6 grid md:grid-cols-2 gap-6">
+                            
+                            <div class="p-6 rounded-lg bg-white space-y-4">
+                                <div>
+                                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1593642532454-e138e28a63f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="">
+                                </div>
+                                <h4 class="text-2xl font-medium">Card Heading</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sit, iure pariatur accusamus veniam ad consequatur corporis aut adipisci porro?</p>
+                                <div class="space-x-2">
+                                    <button class="btn">Button</button> 
+                                    <button class="btn bg-blue-500 border-blue-500 hover:text-black text-white">More</button> 
+        
+                                </div>
+                                               
+                            </div>
+        
+                            <div class="p-6 rounded-lg bg-white space-y-4">
+                                <div>
+                                    <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1738&q=80" alt="">
+                                </div>
+                                <h4 class="text-2xl font-medium">Card Heading</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti sit, iure pariatur accusamus veniam ad consequatur corporis aut adipisci porro?</p>
+                                <div class="space-x-2">
+                                    <button class="btn">Button</button> 
+                                    <button class="btn bg-blue-500 border-blue-500 hover:text-black text-white">More</button> 
+        
+                                </div>                 
+                            </div>
+        
+                        </div>
+                        
+        
+        
+        
+                        <!-- Replace with your content -->
+        
+        
+                        <div class="card space-y-4 mt-6">
+                            <h1>H1.Heading</h1>
+                            <h2>H2.Heading</h2>
+                            <h3>H3.Heading</h3>
+                            <h4>H4.Heading</h4>
+                            <h5 class="text-2xl">H5.Heading</h5>
+                            <h6 class="text-xl">H6.Heading</h6>
+                            <p class="text-basic">Plain text basic</p>
+                            <p class="text-sm">Plain text small</p>
+                            <button type="button"
+                                class="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                                <!-- Heroicon name: solid/link -->
+                                <svg class="-ml-1 mr-2 h-5 w-5 text-gray-500" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd"
+                                        d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                                View
+                            </button>
+                            <div>
+                                <button type="button" class="btn">Button</button>
+                            </div>
+        
+        
+                        </div>
+        
+                        <!-- /End replace -->
+                    </div>
+                </main>
+            </div>  
+        </div>
+
+    </div>
+</body>
+
+</html>

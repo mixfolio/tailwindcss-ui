@@ -26,8 +26,8 @@
 
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
-                                <a href="#" aria-current="page">Dashboard</a>
-                                <a href="./forms.html" class="nav-link">Forms</a>
+                                <a href="./index.html" class="nav-link">Dashboard</a>
+                                <a aria-current="page" class="text-blue-700">Forms</a>
                                 <a href="./tables.html" class="nav-link">Tables</a>
                                 <a href="./buttons.html" class="nav-link">Buttons</a>
                                 <a href="./columns.html" class="nav-link">Layout</a>
@@ -50,10 +50,68 @@
             <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
 
                 <div class="card">
-                    <input type="text" name="text" class="w-full py-2 px-3 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500" placeholder="Введите текст">
+                    <input type="text" name="text"
+                        class="w-full py-2 px-3 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                        placeholder="Введите текст">
                 </div>
 
-                <div class="mt-6">
+                <div class="card mt-6">
+                    <h4>Регистрация новой поездки</h4>
+
+                    <form action="#" method="POST" class="mt-8">
+                        <div class="grid grid-cols-4 gap-6">
+                            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                                <label for="employ" class="block text-sm font-medium text-gray-700">Сотрудник</label>
+                                <input type="text" name="text"
+                                    class="w-full py-2 px-3 mt-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Введите текст">
+                            </div>
+                            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                                <label for="" class="block text-sm font-medium text-gray-700">Организация</label>
+                                <input type="text" name="text"
+                                    class="w-full py-2 px-3 mt-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Введите текст">
+                            </div>
+                            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                                <label for="" class="block text-sm font-medium text-gray-700">Дата и время
+                                    выезда</label>
+                                <input type="text" name="text"
+                                    class="w-full py-2 px-3 mt-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Введите текст">
+                            </div>
+                            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                                <label for="" class="block text-sm font-medium text-gray-700">Цель поездки</label>
+                                <input type="text" name="text"
+                                    class="w-full py-2 px-3 mt-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Введите текст">
+                            </div>
+                            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                                <label for="" class="block text-sm font-medium text-gray-700">Адрес назначения</label>
+                                <input type="text" name="text"
+                                    class="w-full py-2 px-3 mt-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Введите текст">
+                            </div>
+                            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                                <label for="" class="block text-sm font-medium text-gray-700">Планируемое время поездки</label>
+                                <input type="text" name="text"
+                                    class="w-full py-2 px-3 mt-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Введите текст">
+                            </div>
+                            <div class="col-span-4 sm:col-span-2 lg:col-span-1">
+                                <label for="" class="block text-sm font-medium text-gray-700">Описание поездки</label>
+                                <input type="text" name="text"
+                                    class="w-full py-2 px-3 mt-1 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Введите текст">
+                            </div>
+                        </div>
+                        <div class="text-center mt-6">
+                            <button type="submit" class="btn btn-primary">Зарегистрировать</button>
+                        </div>
+                    </form>
+
+                </div>
+
+                <div class="mt-6 hidden">
                     <form action="#" method="POST">
                         <div class="shadow overflow-hidden sm:rounded-md">
                             <div class="px-4 py-5 bg-white sm:p-6">
@@ -61,7 +119,8 @@
                                     <div class="col-span-6 sm:col-span-3">
                                         <label for="first-name" class="block text-sm font-medium text-gray-700">First
                                             name</label>
-                                        <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="appearance-none py-2 px-3 mt-1 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md">
+                                        <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                                            class="appearance-none py-2 px-3 mt-1 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border border-gray-300 rounded-md">
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-3">
@@ -131,7 +190,7 @@
 
 
 
-                <div class="mt-6">
+                <div class="mt-6 hidden">
                     <form action="#" method="POST">
                         <div class="shadow overflow-hidden sm:rounded-md">
                             <div class="px-4 py-5 bg-white space-y-6 sm:p-6">
@@ -217,11 +276,7 @@
                         </div>
                     </form>
                 </div>
-                <!-- Cards -->
-                <div class="p-6 rounded-lg bg-white">
-                    <h4>Heading</h4>
-
-                </div>
+               
             </div>
         </main>
 
