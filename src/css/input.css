@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+/* @layer base {
     h1 {
         @apply text-6xl;
     }
@@ -15,7 +15,7 @@
     h4 {
         @apply text-3xl;
     }
-}
+} */
 @layer components {
     .wrapper {
         @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8
